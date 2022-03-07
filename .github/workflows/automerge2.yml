@@ -7,12 +7,6 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - uses: actions/checkout@v2
-     - name: Run a one-line script
-       run: echo Test Test the changes.
-     - name: Run a multi-line script
-       run: |
-         echo Add other actions to build,
-         echo test, and deploy your project.
      - name: Use Node.js
        uses: actions/setup-node@v1
        with:
